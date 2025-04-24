@@ -7,39 +7,40 @@ const projects = [
   {
     title: 'SayChess',
     description: 'Voice-based chess game with hands-free gameplay using Python and Pygame.',
-    image: 'src/assets/chess.jpeg',
+    image: '/assets/chess.jpeg', // Updated path
     live: '',
     code: 'https://github.com/arunvijo04/SayChess',
   },
   {
     title: 'SensEdge',
     description: 'Inclusive virtual classroom with sign language support, TTS/STT.',
-    image: 'src/assets/learn.jpeg',
+    image: '/assets/learn.jpeg', // Updated path
     live: '',
     code: '#',
   },
   {
     title: 'Eventura',
     description: 'Event management platform with QR code check-in and calendar integration.',
-    image: 'src/assets/party.jpeg',
-    live: '',
+    image: '/assets/party.jpeg', // Updated path
+    live: 'https://eventura24.vercel.app/',
     code: 'https://github.com/arunvijo04/eventura',
   },
   {
     title: 'Postify',
     description: 'Interactive blogging platform built with React and Firebase.',
-    image: 'src/assets/post.jpeg',
-    live: '',
+    image: '/assets/post.jpeg', // Updated path
+    live: 'https://postify24.vercel.app/',
     code: 'https://github.com/arunvijo04/postify',
   },
   {
     title: 'Face Recognition Attendance',
     description: 'Attendance system using OpenCV and database integration.',
-    image: 'src/assets/face.jpeg',
+    image: '/assets/face.jpeg', // Updated path
     live: '',
     code: 'https://github.com/arunvijo04/face-recognition-attendance',
   },
 ];
+
 
 const Projects = () => {
   return (

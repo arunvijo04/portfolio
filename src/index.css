@@ -65,3 +65,33 @@ nav ul {
   background-size: 200% 200%;
   animation: glow 4s ease infinite;
 }
+
+.blinking-cursor {
+  animation: blink 1s steps(2, start) infinite;
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+@keyframes orbit {
+  0%   { top: 0%; left: 0%; transform: translate(-50%, -50%); }
+  25%  { top: 0%; left: 100%; transform: translate(-50%, -50%); }
+  50%  { top: 100%; left: 100%; transform: translate(-50%, -50%); }
+  75%  { top: 100%; left: 0%; transform: translate(-50%, -50%); }
+  100% { top: 0%; left: 0%; transform: translate(-50%, -50%); }
+}
+
+.orbit-glow {
+  position: absolute;
+  width: 20px;
+  height: 80px;
+  background: #3b82f6; /* Tailwind blue-500 */
+  border-radius: 50%;
+  filter: blur(20px);
+  animation: orbit 8s linear infinite;
+  z-index: 0;
+  opacity: 0.6;
+}
+

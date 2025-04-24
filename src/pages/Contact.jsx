@@ -54,7 +54,7 @@ const Contact = () => {
               Let’s get in touch <FaPaperPlane />
             </a>
             <a
-              href="src/assets/Resume.pdf"
+              href="/assets/Resume.pdf"
               download
               className="inline-flex items-center gap-2 text-white border border-gray-500 px-6 py-3 rounded-full hover:bg-gray-700 transition-all shadow-md hover:shadow-gray-500"
             >
@@ -67,7 +67,7 @@ const Contact = () => {
         {/* RIGHT: Contact Form */}
 <div className="relative w-full">
   {/* Glowing animated border */}
-  <div className="absolute -inset-1 rounded-xl bg-gradient-to-r from-blue-400 via-purple-500 to-blue-400 blur-lg animate-glow z-0" />
+  <div className="absolute -inset-1 rounded-xl bg-gradient-to-r from-blue-300 to-blue-300 blur-lg animate-glow z-0" />
   
   <form className="relative z-10 space-y-4 w-full bg-[#1f2937] p-6 rounded-xl shadow-lg">
     <input
